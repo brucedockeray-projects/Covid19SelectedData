@@ -105,8 +105,6 @@
 
 <div id="containerChart" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
-<script type="text/javascript" src="static/js/bar.js"> </script>
-
 <!-- . Add the JavaScript to initialize the chart on document ready -->
 
 <script type="text/javascript">
@@ -160,12 +158,10 @@
 
 <div id="containerChart2" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
-<script type="text/javascript" src="static/js/bar.js"> </script>
-
 <!-- . Add the JavaScript to initialize the chart on document ready -->
 
 <script type="text/javascript">
-  $.get('graphdata/graph_data_sp.csv', function(csv) {
+  $.get('graphdata/graph_data_UKFR.csv', function(csv) {
   $('#containerChart2').highcharts({
       chart: {
           type: 'spline'
@@ -186,7 +182,148 @@
             title: {
              text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
           },
-            categories:['1','2','3','4','5','6','7'],
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart3" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKNL.csv', function(csv) {
+  $('#containerChart3').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and France)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart4" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKUS.csv', function(csv) {
+  $('#containerChart4').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and France)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart5" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKSP.csv', function(csv) {
+  $('#containerChart5').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and France)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
 
         },
 
