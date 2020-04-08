@@ -123,10 +123,14 @@
       title: {
           text: 'Covid Mortality (Selected Countries)'
       },
-      xAxis:{allowDecimals:false,
+      xAxis:{
+
+            allowDecimals:false,
             title: {
              text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
-          }},
+          },
+
+        },
 
       yAxis: {
           type: 'logarithmic',
@@ -145,12 +149,61 @@
 
 <div class="container">
 
-<div class="col-md-8">The next Chart can be single country only</div>
-<div class="col-md-4"> Homework !!</div>
+<div class="col-md-8"><br><br><br></div>
+<div class="col-md-4"> </div>
 <br>
 <br>
 <br>
 </div>
+
+<!--  Add the container -->
+
+<div id="containerChart2" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<script type="text/javascript" src="static/js/bar.js"> </script>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_sp.csv', function(csv) {
+  $('#containerChart2').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (Selected Countries)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:['1','2','3','4','5','6','7'],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
   
 
  
