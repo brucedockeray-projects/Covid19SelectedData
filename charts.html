@@ -341,6 +341,53 @@
 
 
 </script>
+
+<!--  Add the container -->
+
+<div id="containerChart6" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKGM.csv', function(csv) {
+  $('#containerChart6').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and Germany)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
   
 
  
