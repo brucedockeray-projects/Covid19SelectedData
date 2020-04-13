@@ -170,7 +170,7 @@
 <!-- . Add the JavaScript to initialize the chart on document ready -->
 
 <script type="text/javascript">
-  $.get('graphdata/graph_data_UKFR.csv', function(csv) {
+  $.get('graphdata/graph_data.csv', function(csv) {
   $('#containerChart2').highcharts({
       chart: {
           type: 'spline'
@@ -178,6 +178,12 @@
       data: {
           csv: csv,
           switchRowsAndColumns: true,
+          parsed: function(e) {
+          this.columns.splice(5, 1);
+          // deletes USA on 5th row 
+           this.columns.splice(2, 2);
+          // first bound is the row number , second is how many rows to delete delete rows 2 and 3 
+        }
 
 
 
@@ -375,64 +381,6 @@
       },
       title: {
           text: 'Covid Mortality (UK and Germany)'
-      },
-      xAxis:{
-
-            allowDecimals:false,
-            title: {
-             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
-          },
-            categories:[],
-
-        },
-
-      yAxis: {
-          type: 'logarithmic',
-          allowDecimals: false,
-          title: {
-              text: 'Number of deaths'
-          }
-
-      }
-
-  });
-});
-
-
-</script>
-
-<!--  Add the container -->
-
-<div id="containerChart7" style="width: 600px; height: 400px; margin: 0 auto">  </div>
-
-<!-- . Add the JavaScript to initialize the chart on document ready
-
-Test to see if i can do comparative without generating new csv
-will delete rows using splice
-
-need rows 1 and 4 to be kept
--->
-
-<script type="text/javascript">
-  $.get('graphdata/graph_data.csv', function(csv) {
-  $('#containerChart7').highcharts({
-      chart: {
-          type: 'spline'
-      },
-      data: {
-          csv: csv,
-          switchRowsAndColumns: true,
-          parsed: function(e) {
-          //this.columns.splice(5, 1);
-          // deletes USA on 5th row 
-           this.columns.splice(2, 2);
-          // first bound is the row number , second is how many rows to delete delete rows 2 and 3 }
-
-
-
-      },
-      title: {
-          text: 'Covid Mortality (UK and France - TEST)'
       },
       xAxis:{
 
