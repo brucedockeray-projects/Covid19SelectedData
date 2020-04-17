@@ -117,6 +117,7 @@
 <!-- . Add the JavaScript to initialize the chart on document ready -->
 
 <script type="text/javascript">
+
   $.get('graphdata/graph_data.csv', function(csv) {
   $('#containerChart').highcharts({
       chart: {
@@ -125,6 +126,7 @@
       data: {
           csv: csv,
           switchRowsAndColumns: true
+
 
       },
       title: {
