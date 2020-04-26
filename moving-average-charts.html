@@ -1,0 +1,423 @@
+<html>
+  <head>
+  
+  
+
+  <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home | covid data</title>
+
+    <meta name="author" content="Bruce Dockeray"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" href="./theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="./theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="./theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+  
+  
+  
+   
+    
+    <!-- 1. Add these JavaScript inclusions in the head of your page -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+    <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/modules/data.js"></script>
+    
+    
+    
+
+    </script>
+    
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1><a href=".">covid data</a> <small></small></h1>
+      </div>
+
+      <nav class="navbar navbar-default">
+
+        <!-- Hamburger menu for mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#plumage-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="." title="">covid data</a>
+        </div>
+
+        <!-- Menus and search forms -->
+        <div class="collapse navbar-collapse" id="plumage-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+<li >
+                  <a href="./category/detail.html">Detail</a>
+                </li>
+<li  class="active" >
+                  <a href="./category/notes.html">Notes <span class="sr-only">(current)</span></a>
+                </li>
+          </ul>
+
+
+
+        </div>
+
+      </nav>
+
+    </div>
+
+    
+  
+
+  
+    <div class="container">
+
+<div class="col-md-8">7 day moving average shows the decline (flattening off) in the number of deaths</div>
+<div class="col-md-4"> 
+    <ul class="list-group">
+        <li class="list-group-item"> <a href="#containerChart"> UK: Various </a> </li>
+        <li class="list-group-item"><a href="#containerChart2">UK : France </a></li>
+        <li class="list-group-item"> <a href="#containerChart3">UK : NL </a></li>
+        <li class="list-group-item"><a href="#containerChart4">UK : USA</a></li>
+        <li class="list-group-item"><a href="#containerChart5">UK : Spain </a></li>
+        <li class="list-group-item"><a href="#containerChart6">UK : Germany </a></li
+    </ul>   
+</div>
+<br>
+<br>
+<br>
+</div>
+
+<!--  Add the container -->
+
+<div id="containerChart" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+
+  $.get('graphdata/graph_data_ma.csv', function(csv) {
+  $('#containerChart').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true
+
+
+      },
+      title: {
+          text: 'Covid Mortality (Selected Countries)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+console.log(data)
+</script>
+
+<div class="container">
+
+<div class="col-md-8"><br><br><br></div>
+<div class="col-md-4"> </div>
+<br>
+<br>
+<br>
+</div>
+
+<!--  Add the container -->
+
+<div id="containerChart2" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_ma.csv', function(csv) {
+  $('#containerChart2').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+          parsed: function(e) {
+          this.columns.splice(5, 1);
+          // deletes USA on 5th row 
+           this.columns.splice(2, 2);
+          // first bound is the row number , second is how many rows to delete delete rows 2 and 3 
+        }
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and France)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart3" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKNL.csv', function(csv) {
+  $('#containerChart3').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and Netherlands)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart4" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKUS.csv', function(csv) {
+  $('#containerChart4').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and US)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart5" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKSP.csv', function(csv) {
+  $('#containerChart5').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and Spain)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+
+<!--  Add the container -->
+
+<div id="containerChart6" style="width: 600px; height: 400px; margin: 0 auto">  </div>
+
+<!-- . Add the JavaScript to initialize the chart on document ready -->
+
+<script type="text/javascript">
+  $.get('graphdata/graph_data_UKGM.csv', function(csv) {
+  $('#containerChart6').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true,
+          //parsed: function(e) {
+          //this.columns.splice(1, 1);
+          // first bound is the row number , second is how many rows to delete }
+
+
+
+      },
+      title: {
+          text: 'Covid Mortality (UK and Germany)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+            categories:[],
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+
+</script>
+  
+
+ 
+
+ 
+        
+  </body>
+
+
+</html>
+
+
