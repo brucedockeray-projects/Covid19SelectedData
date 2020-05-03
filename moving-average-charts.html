@@ -100,7 +100,7 @@
     <ul class="list-group">
         <li class="list-group-item"> <a href="#containerChart"> UK: Various </a> </li>
         <li class="list-group-item"><a href="#containerChart2">UK : France </a></li>
-        <li class="list-group-item"> <a href="#containerChart3">UK : NL </a></li>
+        <li class="list-group-item"> <a href="#containerChart3">UK : IT </a></li>
         <li class="list-group-item"><a href="#containerChart4">UK : USA</a></li>
         <li class="list-group-item"><a href="#containerChart5">UK : Spain </a></li>
         <li class="list-group-item"><a href="#containerChart6">UK : Germany </a></li
@@ -226,7 +226,7 @@ console.log(data)
 <!-- . Add the JavaScript to initialize the chart on document ready -->
 
 <script type="text/javascript">
-  $.get('graphdata/graph_data_UKNL_ma.csv', function(csv) {
+  $.get('graphdata/graph_data_UKIT_ma.csv', function(csv) {
   $('#containerChart3').highcharts({
       chart: {
           type: 'spline'
@@ -239,7 +239,7 @@ console.log(data)
 
       },
       title: {
-          text: 'Covid Mortality (UK and Netherlands)'
+          text: 'Covid Mortality (UK and Italy)'
       },
       xAxis:{
 
