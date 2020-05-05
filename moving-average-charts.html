@@ -223,192 +223,27 @@ console.log(data)
 
 <div id="containerChart3" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
-<!-- . Add the JavaScript to initialize the chart on document ready -->
-
-<script type="text/javascript">
-  $.get('graphdata/graph_data_UKIT_ma.csv', function(csv) {
-  $('#containerChart3').highcharts({
-      chart: {
-          type: 'spline'
-      },
-      data: {
-          csv: csv,
-          switchRowsAndColumns: true,
-
-
-
-      },
-      title: {
-          text: 'Covid Mortality (UK and Italy)'
-      },
-      xAxis:{
-
-            allowDecimals:false,
-            title: {
-             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
-          },
-            categories:[],
-
-        },
-
-      yAxis: {
-          type: 'logarithmic',
-          allowDecimals: false,
-          title: {
-              text: 'Number of deaths'
-          }
-
-      }
-
-  });
-});
-
-
-</script>
-
 <!--  Add the container -->
 
 <div id="containerChart4" style="width: 600px; height: 400px; margin: 0 auto">  </div>
-
-<!-- . Add the JavaScript to initialize the chart on document ready -->
-
-<script type="text/javascript">
-  $.get('graphdata/graph_data_UKUS_ma.csv', function(csv) {
-  $('#containerChart4').highcharts({
-      chart: {
-          type: 'spline'
-      },
-      data: {
-          csv: csv,
-          switchRowsAndColumns: true,
-
-
-
-      },
-      title: {
-          text: 'Covid Mortality (UK and US)'
-      },
-      xAxis:{
-
-            allowDecimals:false,
-            title: {
-             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
-          },
-            categories:[],
-
-        },
-
-      yAxis: {
-          type: 'logarithmic',
-          allowDecimals: false,
-          title: {
-              text: 'Number of deaths'
-          }
-
-      }
-
-  });
-});
-
-
-</script>
 
 <!--  Add the container -->
 
 <div id="containerChart5" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
-<!-- . Add the JavaScript to initialize the chart on document ready -->
-
-<script type="text/javascript">
-  $.get('graphdata/graph_data_UKSP_ma.csv', function(csv) {
-  $('#containerChart5').highcharts({
-      chart: {
-          type: 'spline'
-      },
-      data: {
-          csv: csv,
-          switchRowsAndColumns: true,
-
-
-
-      },
-      title: {
-          text: 'Covid Mortality (UK and Spain)'
-      },
-      xAxis:{
-
-            allowDecimals:false,
-            title: {
-             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
-          },
-            categories:[],
-
-        },
-
-      yAxis: {
-          type: 'logarithmic',
-          allowDecimals: false,
-          title: {
-              text: 'Number of deaths'
-          }
-
-      }
-
-  });
-});
-
-
-</script>
-
 <!--  Add the container -->
 
 <div id="containerChart6" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
-<!-- . Add the JavaScript to initialize the chart on document ready -->
+<!--  Add the container -->
 
-<script type="text/javascript">
-  $.get('graphdata/graph_data_UKGM_ma.csv', function(csv) {
-  $('#containerChart6').highcharts({
-      chart: {
-          type: 'spline'
-      },
-      data: {
-          csv: csv,
-          switchRowsAndColumns: true,
-          //parsed: function(e) {
-          //this.columns.splice(1, 1);
-          // first bound is the row number , second is how many rows to delete }
+<div id="containerChart7" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
+<!--  Add the container -->
 
+<div id="containerChart8" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
-      },
-      title: {
-          text: 'Covid Mortality (UK and Germany)'
-      },
-      xAxis:{
-
-            allowDecimals:false,
-            title: {
-             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
-          },
-            categories:[],
-
-        },
-
-      yAxis: {
-          type: 'logarithmic',
-          allowDecimals: false,
-          title: {
-              text: 'Number of deaths'
-          }
-
-      }
-
-  });
-});
-
-
-</script>
+<script type="text/javascript" src="graphdata/filled_in_template_ma.js"> </script>
   
 
  
