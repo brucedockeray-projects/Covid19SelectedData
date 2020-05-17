@@ -226,3 +226,41 @@
   });
 });
 
+
+  $.get('graphdata/graph_data_UKBR_cu.csv', function(csv) {
+  $('#containerChart9').highcharts({
+	  chart: {
+		  type: 'spline'
+	  },
+	  data: {
+		  csv: csv,
+		  switchRowsAndColumns: true,
+		  
+		 
+		  
+	  },
+	  title: {
+		  text: 'Covid Mortality (United Kingdom and Brazil)'
+	  },
+	  xAxis:{
+
+	  	    allowDecimals:false,
+	  		title: {
+			 text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+		  },
+		  	categories:[],
+		    
+		},
+
+	  yAxis: {
+	  	  type: 'logarithmic',
+	  	  allowDecimals: false,
+		  title: {
+			  text: 'Number of deaths'
+		  }
+
+	  }
+	  
+  });
+});
+
