@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2020-06-05T08:21:00+00:00</updated><entry><title>Covid19 mortality data trend</title><link href="/covid19-mortality-data-trend.html" rel="alternate"></link><published>2020-06-05T08:21:00+00:00</published><updated>2020-06-05T08:21:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-06-05:/covid19-mortality-data-trend.html</id><summary type="html">&lt;p&gt;Days after zero is the number of days after Covid-90 mortalities exceed 50 &lt;/p&gt;
+&lt;p&gt;&lt;a href="#Austria"&gt;Data for Austria&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Belgium"&gt;Data for Belgium&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Brazil"&gt;Data for Brazil&lt;/a&gt;&lt;br&gt;
+&lt;a href="#France"&gt;Data for France&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Germany"&gt;Data for Germany&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Iran"&gt;Data for Iran&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Italy"&gt;Data for Italy&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Japan"&gt;Data for Japan&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Netherlands"&gt;Data for Netherlands&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Norway"&gt;Data for Norway&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Russia"&gt;Data for Russia&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Spain"&gt;Data for Spain&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Sweden"&gt;Data …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Days after zero is the number of days after Covid-90 mortalities exceed 50 &lt;/p&gt;
+&lt;p&gt;&lt;a href="#Austria"&gt;Data for Austria&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Belgium"&gt;Data for Belgium&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Brazil"&gt;Data for Brazil&lt;/a&gt;&lt;br&gt;
+&lt;a href="#France"&gt;Data for France&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Germany"&gt;Data for Germany&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Iran"&gt;Data for Iran&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Italy"&gt;Data for Italy&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Japan"&gt;Data for Japan&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Netherlands"&gt;Data for Netherlands&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Norway"&gt;Data for Norway&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Russia"&gt;Data for Russia&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Spain"&gt;Data for Spain&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Sweden"&gt;Data for Sweden&lt;/a&gt;&lt;br&gt;
+&lt;a href="#Switzerland"&gt;Data for Switzerland&lt;/a&gt;&lt;br&gt;
+&lt;a href="#US"&gt;Data for US&lt;/a&gt;&lt;br&gt;
+&lt;a href="#United Kingdom"&gt;Data for United Kingdom&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Country/Region,Austria&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Austria"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   670&lt;/td&gt;&lt;td&gt;   0.000%&lt;/td&gt;&lt;td&gt;69&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;  0 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.043% or 0 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/austria/coronavirus"&gt; Austria &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Belgium&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Belgium"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   9548&lt;/td&gt;&lt;td&gt;   0.273%&lt;/td&gt;&lt;td&gt;75&lt;/td&gt; &lt;td&gt;26&lt;/td&gt; &lt;td&gt;  23 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.242% or 23 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/belgium/coronavirus"&gt; Belgium &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Brazil&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Brazil"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   34021&lt;/td&gt;&lt;td&gt;   4.526%&lt;/td&gt;&lt;td&gt;71&lt;/td&gt; &lt;td&gt;1473&lt;/td&gt; &lt;td&gt;  1038 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 3.498% or 1038 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/brazil/coronavirus"&gt; Brazil &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,France&lt;/h1&gt;
+&lt;p&gt;&lt;a name="France"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   29010&lt;/td&gt;&lt;td&gt;   0.148%&lt;/td&gt;&lt;td&gt;83&lt;/td&gt; &lt;td&gt;43&lt;/td&gt; &lt;td&gt;  57 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.198% or 57 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/france/coronavirus"&gt; France &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Germany&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Germany"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   8635&lt;/td&gt;&lt;td&gt;   0.384%&lt;/td&gt;&lt;td&gt;76&lt;/td&gt; &lt;td&gt;33&lt;/td&gt; &lt;td&gt;  24 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.276% or 24 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/germany/coronavirus"&gt; Germany &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Iran&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Iran"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   8071&lt;/td&gt;&lt;td&gt;   0.736%&lt;/td&gt;&lt;td&gt;95&lt;/td&gt; &lt;td&gt;59&lt;/td&gt; &lt;td&gt;  63 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.812% or 63 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/iran/coronavirus"&gt; Iran &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Italy&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Italy"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   33689&lt;/td&gt;&lt;td&gt;   0.262%&lt;/td&gt;&lt;td&gt;94&lt;/td&gt; &lt;td&gt;88&lt;/td&gt; &lt;td&gt;  78 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.234% or 78 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/italy/coronavirus"&gt; Italy &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Japan&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Japan"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   911&lt;/td&gt;&lt;td&gt;   0.663%&lt;/td&gt;&lt;td&gt;68&lt;/td&gt; &lt;td&gt;6&lt;/td&gt; &lt;td&gt;  4 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.480% or 4 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/japan/coronavirus"&gt; Japan &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Netherlands&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Netherlands"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   5990&lt;/td&gt;&lt;td&gt;   0.218%&lt;/td&gt;&lt;td&gt;78&lt;/td&gt; &lt;td&gt;13&lt;/td&gt; &lt;td&gt;  12 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.209% or 12 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/netherlands/coronavirus"&gt; Netherlands &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Norway&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Norway"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   238&lt;/td&gt;&lt;td&gt;   0.422%&lt;/td&gt;&lt;td&gt;63&lt;/td&gt; &lt;td&gt;1&lt;/td&gt; &lt;td&gt;  0 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.121% or 0 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/norway/coronavirus"&gt; Norway &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Russia&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Russia"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   5376&lt;/td&gt;&lt;td&gt;   3.226%&lt;/td&gt;&lt;td&gt;58&lt;/td&gt; &lt;td&gt;168&lt;/td&gt; &lt;td&gt;  176 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 3.799% or 176 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/russia/coronavirus"&gt; Russia &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Spain&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Spain"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   27133&lt;/td&gt;&lt;td&gt;   0.018%&lt;/td&gt;&lt;td&gt;85&lt;/td&gt; &lt;td&gt;5&lt;/td&gt; &lt;td&gt;  2 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.007% or 2 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/spain/coronavirus"&gt; Spain &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Sweden&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Sweden"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   4562&lt;/td&gt;&lt;td&gt;   0.440%&lt;/td&gt;&lt;td&gt;71&lt;/td&gt; &lt;td&gt;20&lt;/td&gt; &lt;td&gt;  42 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.965% or 42 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/sweden/coronavirus"&gt; Sweden &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,Switzerland&lt;/h1&gt;
+&lt;p&gt;&lt;a name="Switzerland"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   1921&lt;/td&gt;&lt;td&gt;   0.000%&lt;/td&gt;&lt;td&gt;76&lt;/td&gt; &lt;td&gt;0&lt;/td&gt; &lt;td&gt;  0 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.015% or 0 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/switzerland/coronavirus"&gt; Switzerland &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,United Kingdom&lt;/h1&gt;
+&lt;p&gt;&lt;a name="United Kingdom"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   39904&lt;/td&gt;&lt;td&gt;   0.443%&lt;/td&gt;&lt;td&gt;80&lt;/td&gt; &lt;td&gt;176&lt;/td&gt; &lt;td&gt;  295 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.763% or 295 &lt;/p&gt;
+&lt;h2&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/united kingdom/coronavirus"&gt; United Kingdom &lt;/a&gt;&lt;/h2&gt;
+&lt;h1&gt;Country/Region,US&lt;/h1&gt;
+&lt;p&gt;&lt;a name="US"&gt;&lt;/a&gt;&lt;table class="table table-striped table-responsive-md btn-table"&gt;&lt;tr&gt; &lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Tot&lt;/th&gt;&lt;th&gt; % Increase&lt;/th&gt; &lt;th&gt; Days after Zero&lt;/th&gt;&lt;th&gt; Discrete &lt;/th&gt; &lt;th&gt; Rolling Avge&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6/4/20&lt;/td&gt;&lt;td&gt;   108211&lt;/td&gt;&lt;td&gt;   0.967%&lt;/td&gt;&lt;td&gt;83&lt;/td&gt; &lt;td&gt;1036&lt;/td&gt; &lt;td&gt;  942 &lt;/td&gt; &lt;/tr&gt;&lt;/table&gt;
+ Average last seven days is 0.903% or 942 &lt;/p&gt;
+&lt;p&gt;Current Travel Advice for &lt;a href="https://www.gov.uk/foreign-travel-advice/us/coronavirus"&gt; US &lt;/a&gt; &lt;/p&gt;</content><category term="Detail"></category></entry><entry><title>Brazil DailyCharts</title><link href="/Brazil%20daily%20chart.html" rel="alternate"></link><published>2020-05-31T08:00:00+00:00</published><updated>2020-05-31T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-05-31:/Brazil daily chart.html</id><summary type="html">&lt;p&gt;Brazil daily chart&lt;/p&gt;</summary><content type="html">&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;The trendlines for Brazil only daily and moving average&lt;/div&gt;
+&lt;div class="col-md-4"&gt; 
+    &lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart"&gt; Brazil: Only &lt;/a&gt; &lt;/li&gt;
+
+    &lt;/ul&gt;   
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChartBrazil" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;script type="text/javascript" src="graphdata/filled_in_template_combined_column_and_line_brazil.js"&gt; &lt;/script&gt;</content><category term="Notes"></category><category term="Charts"></category></entry><entry><title>UK DailyCharts</title><link href="/UK%20daily%20chart.html" rel="alternate"></link><published>2020-05-14T08:00:00+00:00</published><updated>2020-05-14T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-05-14:/UK daily chart.html</id><summary type="html">&lt;p&gt;UK daily chart&lt;/p&gt;</summary><content type="html">&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;The trendlines for UK only daily and moving average&lt;/div&gt;
+&lt;div class="col-md-4"&gt; 
+    &lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart"&gt; UK: Only &lt;/a&gt; &lt;/li&gt;
+
+    &lt;/ul&gt;   
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;pre id="quantity.csv" style="display: none"&gt;
+DAY,DAILY,7 DAY MA
+day 1,143,81.25
+day 2,385,79.81
+day 3,260,86.66
+day 4,445,300
+day 5,279,340
+&lt;/pre&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChartUK" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;script type="text/javascript" src="graphdata/filled_in_template_combined_column_and_line.js"&gt; &lt;/script&gt;</content><category term="Notes"></category><category term="Charts"></category></entry><entry><title>Dodgy data - countries in the frame</title><link href="/dodgy%20dictator%20data.html" rel="alternate"></link><published>2020-05-13T08:00:00+00:00</published><updated>2020-05-13T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-05-13:/dodgy dictator data.html</id><summary type="html">&lt;p&gt;The worst hit countries are not publishing true figures&lt;/p&gt;</summary><content type="html">&lt;p&gt;It is becoming clear that a number of countries are either in total denial, or are massaging the figues, or both. These countries include Brazil, Mexico, Russia and Belarus. There may be others. &lt;/p&gt;
+&lt;p&gt;In general these are not wealthy countries. It may be that their economies are financially unable to cope with social distancing, it may be that politicians find it easier to pretend that everything is normal in preference to admitting to a crisis. In the fulness of time perhaps the truth will emerge, except that in a poor country, a corrupt system can cover up wrongdoing for a very long time. &lt;/p&gt;
+&lt;p&gt;Perhaps it is a mark of a mature democracy that it does disclose the truth even if the data doen't look good  - in this context the incorporation of care home and community deaths into the UK dataset is to be applauded despite the fact that its inclusion made the cumulative death count in the UK the worst in Europe!&lt;/p&gt;
+&lt;h2&gt;Belarus&lt;/h2&gt;
+&lt;p&gt;Meanwhile,despite the worldwide pandemic, Belarus had a full scale &lt;a href="https://images.app.goo.gl/uPWptWBoe1FPkebz5"&gt;military parade&lt;/a&gt;to celebrate VE day.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.theguardian.com/world/2020/may/09/thousands-turn-out-for-ve-day-parade-in-belarus-despite-covid-19-concerns"&gt;The Guardian reported&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;images from the parade showed packed crowds as the country’s leader, Alexander Lukashenko, boasted of holding the only parade in the former Soviet Union to mark the defeat of Nazi Germany.&lt;/p&gt;
+&lt;p&gt;“In this insane, disoriented world, there will be people who condemn us for the time and place of this sacred act,” he said. “Don’t rush to conclusions or condemn us, descendants of the victory of Belarusians. We couldn’t have acted differently. We had no other choice. And even if we had one, we would have done the same.”&lt;/p&gt;
+&lt;p&gt;Lukashenko has publicly downplayed the pandemic, appearing at Orthodox Easter services and other public events and calling concerns over the virus a “psychosis”. Belarus is the only country in Europe to continue holding football matches during the crisis.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Brazil&lt;/h2&gt;
+&lt;p&gt;The &lt;a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31095-3/fulltext"&gt;Lancet&lt;/a&gt; in its article on Brazil's handling of the crisis identifies the Brazilian President Jair Bolsanaro as the biggest threat.   &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;When asked by journalists last week about the rapidly increasing numbers of COVID-19 cases, he responded: “So what? What do you want me to do?” He ... continues to sow confusion by openly flouting and discouraging the sensible measures of physical distancing and lockdown brought in by state governors and city mayors&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;See also &lt;a href="https://www.theguardian.com/world/2020/may/10/bolsonaro-attends-floating-barbeque-as-brazils-covid-19-toll-tops-10000"&gt;The Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Brazil’s provocateur president has continued to brush off the coronavirus, taking a spin on a jet-ski to a floating barbecue and attacking Covid-19 “neurosis” as his country’s death toll rose to more than 10,000.&lt;/p&gt;
+&lt;p&gt;Jair Bolsonaro has faced domestic and international condemnation for his dismissive attitude toward the pandemic. The rightwing populist continues to play down the disease despite the growing evidence of its deadly impact on Brazil.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;see also &lt;a href="https://www.bbc.co.uk/news/world-latin-america-52701524"&gt;BBC Hospitals in Brazil's São Paulo 'near collapse'&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The mayor of Brazil's largest city, São Paulo, has said its health system could collapse as demand grows for emergency beds to deal with coronavirus cases.&lt;/p&gt;
+&lt;p&gt;Bruno Covas said the city's public hospitals had reached 90% capacity and could run out of space in two weeks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;See also &lt;a href="https://www.ft.com/content/9872c27b-689d-4a8b-a1e7-58a1b0bb50e1"&gt;FT 2nd June 2020&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Foreign investors in Brazil’s stock and bond markets continue to withdraw money en masse from Latin America’s largest economy, frightened off by hard-right president Jair Bolsonaro even as investment returns to many other emerging markets.&lt;/p&gt;
+&lt;p&gt;Cross-border flows from Brazil have dwarfed those of most other emerging economies. Foreign investors took $11.8bn from Brazil’s stock market in the four months from February to May and $18.7bn from its bond market between February and April, the most recent month of available data, according to the Institute of International Finance, an industry association that gathers emerging market data&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Mexico&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://news.sky.com/story/mexico-city-underreporting-covid-19-deaths-sky-news-analysis-finds-11987235"&gt;Sky news&lt;/a&gt; report that &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In a recent briefing, the country's president Andres Manuel Lopez Obrador told the nation: "What the world knows about Mexico is that we are taming the pandemic, and we are basically doing this because Mexican people are making a conscious effort."&lt;/p&gt;
+&lt;p&gt;But that has been dismissed by many dealing with the crisis as incorrect &lt;/p&gt;
+&lt;p&gt;An official within the government, but speaking anonymously, confirms the official figures are undercounting the actual mortality rate by a factor of at least five.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://www.nytimes.com/2020/05/08/world/americas/mexico-coronavirus-count.html"&gt;NY Times&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Doctors in overwhelmed hospitals in Mexico City say the reality of the epidemic is being hidden from the country. In some hospitals, patients lie on the floor, splayed on mattresses. Elderly people are propped up on metal chairs because there are not enough beds, while patients are turned away to search for space in less-prepared hospitals. Many die while searching, several doctors said.&lt;/p&gt;
+&lt;p&gt;“It’s like we doctors are living in two different worlds,” said Dr. Giovanna Avila, who works at Hospital de Especialidades Belisario Domínguez. “One is inside of the hospital with patients dying all the time. And the other is when we walk out onto the streets and see people walking around, clueless of what is going on and how bad the situation really is.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Russia&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.theguardian.com/world/2020/may/05/painful-to-see-rise-in-russian-medics-falling-prey-to-covid-19-as-death-toll-questioned"&gt;The Guardian&lt;/a&gt; reports queries over Russian statistics&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The unofficial statistics raise questions about how Russia is counting the numbers of its people who have died from the disease.&lt;/p&gt;
+&lt;p&gt;The Guardian this week collected reports of 150 deaths among health workers in the UK when the country had recorded more than 28,000 deaths from the disease. When Italy reported that 100 medical workers had died, the country’s death toll had just surpassed 18,200.&lt;/p&gt;
+&lt;p&gt;The Russian list has 97 names for just 1,451 coronavirus deaths, indicating that either Russian health workers are dying at higher rates or that the country’s total death toll due to coronavirus may be underreported, or both.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href="https://www.ft.com/content/77cd2cba-b0e2-4022-a265-e0a9a7930bda"&gt;FT&lt;/a&gt; analysed the data and suggests the death toll is understated in Russia by 70 per cent &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Russia’s national death toll from coronavirus could be 70 per cent higher than the government’s official data show, as the Kremlin struggles to curb the spread of Covid-19 despite a seven-week long lockdown.&lt;/p&gt;
+&lt;p&gt;Russia has made it illegal to publish or discuss “fake news” about the pandemic in the country, a decision that critics say could be used to muzzle independent media reports that contradict the government’s official statements.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="Notes"></category><category term="dodgy data"></category></entry><entry><title>Charts (discrete moving average)</title><link href="/moving-average-charts.html" rel="alternate"></link><published>2020-04-26T08:00:00+00:00</published><updated>2020-04-26T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-26:/moving-average-charts.html</id><summary type="html">&lt;p&gt;Charting the trends - moving average&lt;/p&gt;</summary><content type="html">&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;7 day moving average shows the decline (flattening off) in the number of deaths&lt;/div&gt;
+&lt;div class="col-md-4"&gt; 
+    &lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart"&gt;  UK: Various &lt;/a&gt; &lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart3"&gt; UK : Germany &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart4"&gt; UK : Spain &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart5"&gt; UK : USA&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart6"&gt; UK : NL&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart7"&gt; UK : France &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart8"&gt; UK : Italy &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart9"&gt; UK : Brazil &lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;   
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!-- . Add the JavaScript to initialize the chart on document ready --&gt;
+
+&lt;script type="text/javascript"&gt;
+
+  $.get('graphdata/graph_data_ma.csv', function(csv) {
+  $('#containerChart').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true
+
+
+      },
+      title: {
+          text: 'Covid Mortality (Selected Countries)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+console.log(data)
+&lt;/script&gt;
+
+&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="col-md-4"&gt; &lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+&lt;!--  Tiddly Pom --&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart3" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart4" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart5" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart6" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart7" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart8" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart9" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  End Tiddly Pom --&gt;
+
+&lt;script type="text/javascript" src="graphdata/filled_in_template_ma.js"&gt; &lt;/script&gt;</content><category term="Notes"></category><category term="Charts"></category></entry><entry><title>Charts (discrete moving average)</title><link href="/moving-average-charts.html" rel="alternate"></link><published>2020-04-26T08:00:00+00:00</published><updated>2020-04-26T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-26:/moving-average-charts.html</id><summary type="html">&lt;p&gt;Charting the trends - moving average&lt;/p&gt;</summary><content type="html">&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;7 day moving average shows the decline (flattening off) in the number of deaths&lt;/div&gt;
+&lt;div class="col-md-4"&gt; 
+    &lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart"&gt;  UK: Various &lt;/a&gt; &lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart3"&gt; UK : Germany &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart4"&gt; UK : Spain &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart5"&gt; UK : USA&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart6"&gt; UK : NL&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart7"&gt; UK : France &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart8"&gt; UK : Italy &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;&lt;a href="#containerChart9"&gt; UK : Brazil &lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;   
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!-- . Add the JavaScript to initialize the chart on document ready --&gt;
+
+&lt;script type="text/javascript"&gt;
+
+  $.get('graphdata/graph_data_ma.csv', function(csv) {
+  $('#containerChart').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true
+
+
+      },
+      title: {
+          text: 'Covid Mortality (Selected Countries)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+console.log(data)
+&lt;/script&gt;
+
+&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;
+&lt;div class="col-md-4"&gt; &lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+&lt;!--  Tiddly Pom --&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart3" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart4" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart5" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart6" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart7" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart8" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart9" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  End Tiddly Pom --&gt;
+
+&lt;script type="text/javascript" src="graphdata/filled_in_template_ma.js"&gt; &lt;/script&gt;</content><category term="Notes"></category><category term="Charts"></category></entry><entry><title>How long will this endure</title><link href="/how%20long.html" rel="alternate"></link><published>2020-04-23T08:00:00+00:00</published><updated>2020-04-23T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-23:/how long.html</id><summary type="html">&lt;p&gt;Another year of social distancing ?&lt;/p&gt;</summary><content type="html">&lt;p&gt;Chris Whitty indicated at the Government press conference on 22nd April that social distancing measures will need to stay in place for up to a year. This comment has been reflected in other countries proposals concerning the easing of Lockdown restrictions: there has been no sense that it will be back to business as normal anywhere anytime soon.&lt;/p&gt;
+&lt;p&gt;How long will this be going on?  &lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/wAVl_IJV5eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:FootnoteA"&gt;
+&lt;p&gt;&lt;a href="https://www.theguardian.com/world/2020/apr/22/uk-will-need-social-distancing-until-at-least-end-of-year-says-whitty"&gt;https://www.theguardian.com/world/2020/apr/22/uk-will-need-social-distancing-until-at-least-end-of-year-says-whitty&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Prof Chris Whitty, the UK’s most senior medic, said it was important to be realistic that “highly disruptive” social distancing would need to be in place for “really quite a long period of time”.&lt;/p&gt;
+&lt;p&gt;He said there was only an “incredibly small” chance of a vaccine or treatments being ready for use this year, and social distancing would have to stay in place to suppress outbreaks until then.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="footnote-backref" href="#fnref:FootnoteA" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Notes"></category><category term="Lockdown"></category></entry><entry><title>Charts (cumulative)</title><link href="/charts.html" rel="alternate"></link><published>2020-04-17T08:00:00+00:00</published><updated>2020-04-17T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-17:/charts.html</id><summary type="html">&lt;p&gt;Charting the trends&lt;/p&gt;</summary><content type="html">&lt;div class="container"&gt;
+
+&lt;div class="col-md-8"&gt;The trendlines of various country mortality rates are surprisingly consistent&lt;/div&gt;
+&lt;div class="col-md-4"&gt; 
+    &lt;ul class="list-group"&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart"&gt; UK: Various &lt;/a&gt; &lt;/li&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart3"&gt;UK : Germany &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart4"&gt;UK : Spain &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart5"&gt;UK : USA&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart6"&gt;UK : Netherlands &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart7"&gt;UK : France &lt;/a&gt;&lt;/li&gt;
+        &lt;li class="list-group-item"&gt; &lt;a href="#containerChart7"&gt;UK : Italy &lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;   
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!-- . Add the JavaScript to initialize the chart on document ready --&gt;
+
+&lt;script type="text/javascript"&gt;
+
+  $.get('graphdata/graph_data_cu.csv', function(csv) {
+  $('#containerChart').highcharts({
+      chart: {
+          type: 'spline'
+      },
+      data: {
+          csv: csv,
+          switchRowsAndColumns: true
+
+
+      },
+      title: {
+          text: 'Covid Mortality (Selected Countries)'
+      },
+      xAxis:{
+
+            allowDecimals:false,
+            title: {
+             text: 'Days after Zero (Zero is defined as the date where cumulative mortality exceeds 50)'
+          },
+
+        },
+
+      yAxis: {
+          type: 'logarithmic',
+          allowDecimals: false,
+          title: {
+              text: 'Number of deaths'
+          }
+
+      }
+
+  });
+});
+
+console.log(data)
+&lt;/script&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart3" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart4" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart5" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart6" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart7" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart8" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;!--  Add the container --&gt;
+
+&lt;div id="containerChart9" style="width: 600px; height: 400px; margin: 0 auto"&gt;  &lt;/div&gt;
+
+&lt;script type="text/javascript" src="graphdata/filled_in_template_cu.js"&gt; &lt;/script&gt;</content><category term="Notes"></category><category term="Charts"></category></entry><entry><title>Care homes</title><link href="/care%20homes.html" rel="alternate"></link><published>2020-04-14T08:00:00+00:00</published><updated>2020-04-14T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-14:/care homes.html</id><summary type="html">&lt;p&gt;Care Homes and Community&lt;/p&gt;</summary><content type="html">&lt;p&gt;We know that Care Homes, Hospices and the community are excluded from government daily data. The risk is we are understating the reach of this virus. There are around 11,000&lt;sup id="fnref:FootnoteA"&gt;&lt;a class="footnote-ref" href="#fn:FootnoteA"&gt;1&lt;/a&gt;&lt;/sup&gt; Care Homes in the UK which accomodate around 410,000 people. Today it has been disclosed that around 2,000 (approximatel 20%) Care Homes have Corona Virus infections. &lt;/p&gt;
+&lt;p&gt;So lets do some approximations - average care home number of residents 410,000 /11,000 = 37. 
+ Current total in infected homes = 37 x 2,000 = 74,000. 
+ Likelihood of catching it - say 40% = 74,000 x 40%= 30,000. Likelihood of survival say 70%. Expected deaths = 30,000 x 30% = 9,000. &lt;/p&gt;
+&lt;p&gt;And these estimates could be so much worse. Easily. The oldest,weakest, most vulnerable are at risk here. It is a time bomb.&lt;/p&gt;
+&lt;p&gt;Update 28.4.2020 &lt;/p&gt;
+&lt;p&gt;FT Article&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Coronavirus deaths more than twice hospital toll, data indicate&lt;/p&gt;
+&lt;p&gt;In the week starting April 10, 22,351 deaths were registered in England and Wales, the highest figure since comparable weekly data started in 1993 and also worse than any figure in similar data of the past 50 years. The average for the comparable week from 2015-2019 was 10,497.&lt;/p&gt;
+&lt;p&gt;Since the beginning of March, there have been 27,015 more deaths registered up to April 17 than the five-year average for the time of year.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:FootnoteA"&gt;
+&lt;p&gt;&lt;a href="https://www.gov.uk/government/publications/care-homes-market-study-summary-of-final-report/care-homes-market-study-summary-of-final-report"&gt;https://www.gov.uk/government/publications/care-homes-market-study-summary-of-final-report/care-homes-market-study-summary-of-final-report&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:FootnoteA" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Notes"></category><category term="Beds"></category></entry><entry><title>NHS Decision Support Tool</title><link href="/Decision.html" rel="alternate"></link><published>2020-04-13T08:00:00+00:00</published><updated>2020-04-13T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-13:/Decision.html</id><summary type="html">&lt;p&gt;Decision support where ICU beds in short supply&lt;/p&gt;</summary><content type="html">&lt;p&gt;The NHS has a decision support tool&lt;sup id="fnref:FootnoteA"&gt;&lt;a class="footnote-ref" href="#fn:FootnoteA"&gt;1&lt;/a&gt;&lt;/sup&gt; to use where ICU beds are in short supply. The upshot is older patients will be unlikely to get ICU care, particularly if they are frail or have underlying health conditions. In short if you are old and unfit and frail - stay inside !! &lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:FootnoteA"&gt;
+&lt;p&gt;&lt;a href="http://prod-upp-image-read.ft.com/765d3430-7a57-11ea-af44-daa3def9ae03"&gt;http://prod-upp-image-read.ft.com/765d3430-7a57-11ea-af44-daa3def9ae03&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:FootnoteA" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Notes"></category><category term="Decision"></category></entry><entry><title>UK Deaths are for hospitals only</title><link href="/hospitals.html" rel="alternate"></link><published>2020-04-08T08:00:00+00:00</published><updated>2020-04-08T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-08:/hospitals.html</id><summary type="html">&lt;p&gt;The reported UK deaths are hospitals only&lt;/p&gt;</summary><content type="html">&lt;p&gt;It appears the reported deaths are for hospitals only. As a consequence Care Homes and other institutions are excluded as well as people who die at home. The risk is we are understating the reach of this virus. The ONS&lt;sup id="fnref:FootnoteA"&gt;&lt;a class="footnote-ref" href="#fn:FootnoteA"&gt;1&lt;/a&gt;&lt;/sup&gt; is reporting more comprehensive data which it will be useful to look at - but this is not the data that is being captured by the WHO / John Hopkins University that forms the basis of much of the statistical analysis of the spread.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:FootnoteA"&gt;
+&lt;p&gt;&lt;a href="https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/linked-hes-ons-mortality-data#provisional-nature-of-ons-mortality-data"&gt;https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/linked-hes-ons-mortality-data#provisional-nature-of-ons-mortality-data&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:FootnoteA" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Notes"></category><category term="Beds"></category></entry><entry><title>NHS Critical Care - were they prepared?</title><link href="/nhs.html" rel="alternate"></link><published>2020-04-01T08:00:00+00:00</published><updated>2020-04-01T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-04-01:/nhs.html</id><summary type="html">&lt;p&gt;How well prepared were the NHS&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lots of positive news stories concerning the new Nightingale Hospitals which are rapidly creating additional critical
+care capacity for the NHS. However it is worth reflecting that WITHOUT these measures the bed situation in the NHS was 
+pretty bad. The current position is described in the recent Kings Fund Report (&lt;a href="https://www.kingsfund.org.uk/publications/nhs-hospital-bed-numbers"&gt;https://www.kingsfund.org.uk/publications/nhs-hospital-bed-numbers&lt;/a&gt;) dated 26th March 2020 which states that critical care beds (pre Corona Virus) were in TOTAl 5,900. It also reports that normal bed occupancy was 90 - 95%. &lt;/p&gt;
+&lt;p&gt;It doesn't take a genius to work out that using these figures would give a NATIONAL spare bed capacity of, at best, 590 critical care beds.&lt;/p&gt;
+&lt;p&gt;No wonder extreme measures have been needed.&lt;/p&gt;</content><category term="Notes"></category><category term="Beds"></category></entry><entry><title>Progress ?</title><link href="/progress.html" rel="alternate"></link><published>2020-03-30T08:00:00+00:00</published><updated>2020-03-30T08:00:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-03-30:/progress.html</id><summary type="html">&lt;p&gt;Are we turning a corner ?&lt;/p&gt;</summary><content type="html">&lt;p&gt;There seems to be a definite downturn in the growth in mortality in a number of badly hit countries including France, 
+Spain and Italy. Spain has fallen from 30% to 14% in the last 5 days, France from 27% to 13% and Italy (already low) 
+from 10% to 8%. This is not to minimise the fact that these are percentages only and a 8% daily growth percentage for 
+Italy, whilst low, still amounts to (760) deaths which is still greater than the combined daily mortality of the 
+UK (209), France (292), Germany (100) and the Netherlands (132). &lt;/p&gt;
+&lt;p&gt;At the moment UK figures don't yet show the effect of social distancing.  &lt;/p&gt;
+&lt;p&gt;Data Source is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL)&lt;/p&gt;</content><category term="Notes"></category><category term="Progress"></category></entry><entry><title>Introduction</title><link href="/introduction.html" rel="alternate"></link><published>2020-03-27T08:30:00+00:00</published><updated>2020-03-27T08:30:00+00:00</updated><author><name>Bruce</name></author><id>tag:None,2020-03-27:/introduction.html</id><summary type="html">&lt;p&gt;Introduction and Summary&lt;/p&gt;</summary><content type="html">&lt;p&gt;Covid mortality data trends obtained using data from John Hopkins University. I will keep this updated
+daily. I haven't brought in the data for confirmed new cases (yet) although it is available from the same source. The obvious problem with new case data is that it depends on the extent of testing undertaken within each country. Consequently the countries which do the most testing are showing the highest number of confirmed cases !&lt;/p&gt;
+&lt;p&gt;I am initially only including a subset of, primarily, European countries for this project. However I may develop the reporting and analysis over time.&lt;/p&gt;
+&lt;p&gt;Data Source is the data repository for the 2019 Novel Coronavirus Visual Dashboard operated by the Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE). Also, Supported by ESRI Living Atlas Team and the Johns Hopkins University Applied Physics Lab (JHU APL)&lt;/p&gt;</content><category term="Notes"></category><category term="Intro"></category></entry></feed>
