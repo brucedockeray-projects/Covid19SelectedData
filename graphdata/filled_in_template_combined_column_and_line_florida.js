@@ -27,6 +27,6 @@ $(document).ready(function() {
     },
     });
   });
-
+// this bit at the end to close off the document ready function
 });
 
