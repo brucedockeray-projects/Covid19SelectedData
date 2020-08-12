@@ -171,6 +171,52 @@ $.get('graphdata/graph_data_combined_mortality_us.csv', function(data) {
     });
   });
 
+$.get('graphdata/graph_data_combined_confirmed_france.csv', function(data) {
+
+    $('#containerChartFrancecd').highcharts({
+      chart: {
+        type: "column",
+        color: "#00FF00"
+      },
+      
+
+      data: {
+        csv: data,
+        switchRowsAndColumns: true,
+        complete: function(options) {
+          options.series[1].type = 'line';
+          //options.series[3].type = 'line';
+        }
+      },
+      title: {
+      text: 'Covid New Cases (France)'
+    },
+    });
+  });
+
+$.get('graphdata/graph_data_combined_confirmed_india.csv', function(data) {
+
+    $('#containerChartIndiacd').highcharts({
+      chart: {
+        type: "column",
+        color: "#00FF00"
+      },
+      
+
+      data: {
+        csv: data,
+        switchRowsAndColumns: true,
+        complete: function(options) {
+          options.series[1].type = 'line';
+          //options.series[3].type = 'line';
+        }
+      },
+      title: {
+      text: 'Covid New Cases (India)'
+    },
+    });
+  });
+
 
 // this bit at the end to close off the document ready function
 
