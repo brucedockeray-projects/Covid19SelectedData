@@ -1,9 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-  
-  
-
-  <meta charset="utf-8"/>
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,29 +23,32 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
 
 
+    <!-- Highcharts -->
+    <!-- check out this fiddle
+    https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/line-ajax/
+    -->
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    
+    
+    <!-- End Hicharts -->
+
+
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
-  
-  
-  
-   
-    
-    <!-- 1. Add these JavaScript inclusions in the head of your page -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-   
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
-    <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
-    <script type="text/javascript" src="https://code.highcharts.com/modules/data.js"></script>
-    
-    
     
 
-    </script>
-    
+
   </head>
+
   <body>
 
     <div class="container">
@@ -81,7 +82,7 @@
                 </li>
           </ul>
 
-
+          
 
         </div>
 
@@ -89,11 +90,32 @@
 
     </div>
 
-    
-  
 
-  
-    <div class="container">
+    <div class="container main">
+
+
+      <div class="row">
+        <div class=" col-md-12  ">
+        </div>
+      </div>
+
+      <div class="row">
+
+
+        <div class=" col-md-12 " id="content" role="main">
+         
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+     <!-- This is where Chart Containder will go -->
+
+        <div>
+         <div class="container">
 
 <div class="col-md-8">The trendlines for various US Southern States - new cases - daily and moving average. These are showing sharp recent increases in the rate of new infections.</div>
 <div class="col-md-4"> 
@@ -137,15 +159,78 @@
 <div id="containerChartAlabama" style="width: 600px; height: 400px; margin: 0 auto">  </div>
 
 <script type="text/javascript" src="graphdata/filled_in_template_combined_column_and_line_selected_states.js"> </script>
-  
+        </div>
 
- 
 
- 
-        
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://github.com/CSSEGISandData/COVID-19">
+      <i class="fa fa-github"></i>
+    Github Source Data
+  </a></li>
+                  <li>  <a href="https://www.ted.com/talks/bill_gates_the_next_outbreak_we_re_not_ready?">
+      <img src="https://icons.better-idea.org/icon?url=www.ted.com&size=16" width="16" height="16" class="icon" alt="www.ted.com icon"/>
+    Bill Gates Ted Talk
+  </a></li>
+                  <li>  <a href="https://www.ft.com/coronavirus-latest">
+      <img src="https://icons.better-idea.org/icon?url=www.ft.com&size=16" width="16" height="16" class="icon" alt="www.ft.com icon"/>
+    FT CoronaVirus Coverage
+  </a></li>
+                  <li>  <a href="https://www.nhs.uk/conditions/coronavirus-covid-19/">
+      <img src="https://icons.better-idea.org/icon?url=www.nhs.uk&size=16" width="16" height="16" class="icon" alt="www.nhs.uk icon"/>
+    NHS Covid Info
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="col-md-2">
+            <h5>Browse content by</h5>
+            <ul class="list-unstyled">
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2020 Bruce Dockeray.</p>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="col-md-2">
+          </div>
+
+        </div>
+      </div>
+
+      <h5 class="text-right"><a href="#"><i class="fa fa-arrow-up"></i> Back to top</a></h5>
+
+      <div class="container">
+        <div class="row col-md-12 text-muted text-center">
+          Site generated by <a href="https://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="https://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script src="./theme/js/jquery.mglass.js"></script>
+    <script src="./theme/js/application.js"></script>
+
   </body>
-
-
 </html>
-
-
