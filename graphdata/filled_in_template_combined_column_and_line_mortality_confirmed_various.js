@@ -194,6 +194,30 @@ $.get('graphdata/graph_data_combined_confirmed_france.csv', function(data) {
     });
   });
 
+$.get('graphdata/graph_data_combined_confirmed_spain.csv', function(data) {
+
+    $('#containerChartSpaincd').highcharts({
+      chart: {
+        type: "column",
+        color: "#00FF00"
+      },
+      
+
+      data: {
+        csv: data,
+        switchRowsAndColumns: true,
+        complete: function(options) {
+          options.series[1].type = 'line';
+          //options.series[3].type = 'line';
+        }
+      },
+      title: {
+      text: 'Covid New Cases (Spain)'
+    },
+    });
+  });
+
+
 $.get('graphdata/graph_data_combined_confirmed_india.csv', function(data) {
 
     $('#containerChartIndiacd').highcharts({
